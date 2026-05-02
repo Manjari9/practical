@@ -1,0 +1,18 @@
+{
+  "name": "practical",
+  "version": "1.0.0",
+  "description": "Question 4: Todo Management API\r Task:\r Build Todo CRUD APIs using MongoDB.\r Todo Schema:\r {\r title: String,\r completed: Boolean,\r priority: String\r }",
+  "main": ".js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.6.1"
+  }
+}
