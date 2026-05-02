@@ -1,0 +1,29 @@
+Question 4: Todo Management API
+Task:
+Build Todo CRUD APIs using MongoDB.
+Todo Schema:
+{
+title: String,
+completed: Boolean,
+priority: String
+}
+
+APIs:
+● POST /todos
+● GET /todos
+● GET /todos/:id
+
+● PUT /todos/:id
+● DELETE /todos/:id
+Constraints:
+● title required
+● Default completed value should be false
+● priority can be:
+○ low
+○ medium
+○ high
+Bonus:
+Create API:
+GET /todos/completed
+
+Return all completed todos.
